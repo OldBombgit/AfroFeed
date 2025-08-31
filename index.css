@@ -54,7 +54,7 @@ header {
 /* textareas + btn */
 
 textarea {
-    border: 1px solid #333;
+    border: 2px solid #333;
     border-radius: 10px;
     background-color: #1a1a1a;
     color: #fff;
@@ -65,6 +65,11 @@ textarea {
     width: 100%;
     font-size: 22px;
     line-height: 32px;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #dcdcdc5d;
 }
 
 button {
@@ -137,7 +142,9 @@ button:hover {
     overflow-wrap: anywhere;
 }
 
-
+.fa-solid:hover, .fa-regular:hover {
+    color: #dcdcdc;
+}
 
 /* images */
 
@@ -145,6 +152,10 @@ button:hover {
     border: 2px solid #dcdcdc39;
     border-radius: 60%;
     width: 80px;
+}
+
+.profile-pic:hover {
+    border-color: #dcdcdc88;
 }
 
 /* utility */
@@ -163,14 +174,16 @@ button:hover {
 .reply-input-area input {
     flex: 1;
     padding: 12px 16px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
     outline: none;
     font-size: 18px;
+    background-color: #1a1a1a;
+    border: 2px solid #333;
+    border-radius: 10px;
+    color: #fff;
 }
 
 .reply-input-area input:focus {
-    border-color: #dcdcdc;
+    border-color: #dcdcdc5d;
 }
 
 .reply-input-area button {
