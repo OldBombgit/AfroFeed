@@ -1,6 +1,6 @@
 import { tweetsData as defaultTweetsData } from './data.js'
 // Enable to clear local storage on page refresh
-// localStorage.removeItem("tweetsData")//////////
+// localStorage.removeItem("tweetsData")
 let tweetsData = JSON.parse(localStorage.getItem("tweetsData")) || defaultTweetsData
 
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
