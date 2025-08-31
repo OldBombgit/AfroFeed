@@ -142,10 +142,6 @@ button:hover {
     overflow-wrap: anywhere;
 }
 
-.fa-solid:hover, .fa-regular:hover {
-    color: #dcdcdc;
-}
-
 /* images */
 
 .profile-pic {
