@@ -150,7 +150,7 @@ function getFeedHtml() {
                         <div class="tweet-inner">
                             <img src="${reply.profilePic}" class="profile-pic">
                             <div>
-                                <p class="handle">${reply.handle} │ ${formatTimestamp(tweet.timestamp)}</p>
+                                <p class="handle">${reply.handle} │ ${formatTimestamp(reply.timestamp)}</p>
                                 <p class="tweet-text">${reply.tweetText}</p>
                             </div>
                         </div>
