@@ -152,7 +152,6 @@ function getFeedHtml() {
                             <div>
                                 <p class="handle">${reply.handle} │ ${formatTimestamp(tweet.timestamp)}</p>
                                 <p class="tweet-text">${reply.tweetText}</p>
-                                <p class="tweet-time">${formatTimestamp(reply.timestamp)}</p>
                             </div>
                         </div>
                     </div>
@@ -168,7 +167,6 @@ function getFeedHtml() {
                     <div>
                         <p class="handle">${tweet.handle} │ ${formatTimestamp(tweet.timestamp)}</p>
                         <p class="tweet-text">${tweet.tweetText}</p>
-                        <p class="tweet-time">${formatTimestamp(tweet.timestamp)}</p>
                         <div class="tweet-details">
                             <span class="tweet-detail">
                                 <i class="fa-regular fa-comment-dots"
