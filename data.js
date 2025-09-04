@@ -9,12 +9,15 @@ export const tweetsData = [
             {
                 handle: `@NinjaNinja 😂`,
                 profilePic: `images/Ninja_Ninja.webp`,
-                tweetText: `Man, Afro… you ever think about chillin’ out? 🍃`
+                tweetText: `Man, Afro… you ever think about chillin’ out? 🍃`,
+                timestamp: new Date().toISOString()
             }
         ],
         isLiked: false,
         isRetweeted: false,
         uuid: 'afro-uuid-1',
+        timestamp: new Date().toISOString()
+        
     },    
     {
         handle: `@Justice 🎩`,
@@ -26,12 +29,14 @@ export const tweetsData = [
             {
                 handle: `@Kuma 🐻`,
                 profilePic: `images/kuma.jpg`,
-                tweetText: `Justice… your time’s coming.`
+                tweetText: `Justice… your time’s coming.`,
+                timestamp: new Date().toISOString()
             }
         ],
         isLiked: false,
         isRetweeted: false,
         uuid: 'justice-uuid-2',
+        timestamp: new Date().toISOString()
     },
     {
         handle: `@Kuma 🐻`,
@@ -43,5 +48,6 @@ export const tweetsData = [
         isLiked: false,
         isRetweeted: false,
         uuid: 'kuma-uuid-3',
+        timestamp: new Date().toISOString()
     }
 ]
